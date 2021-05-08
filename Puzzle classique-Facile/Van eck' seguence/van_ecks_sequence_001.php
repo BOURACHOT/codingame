@@ -2,7 +2,7 @@
 /**
  * Auto-generated code below aims at helping you parse
  * the standard input according to the problem statement.
- *joel bourachot
+ *joel bourachot cebazat
  **/
 
 fscanf(STDIN, "%d", $A1);
