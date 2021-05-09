@@ -16,20 +16,33 @@ fscanf(STDIN, "%d", $N);
 while ($i<$cible)
 
 	{
-			for ($j = $i; $j <1; $j--)
+	
+	
+	if ( $i==1)
+			{
+			$i=$i+1;
+		  $terme[$i]=0;							
+			}
+	else
+	
+		{
+			for ($j = $i; $j>0; $j--)
 
-					 {
+				 {
 
 
 
-						 if ( $terme[$j] = $terme[$j-1])
+					 if ( $terme[$j] == $terme[$j-1])
+						 $i=$i+1;
+				$terme[$i]=1;
+
 						
-							 $terme[$j+1]=1;
 
-					 }
-                     $i=$i+1;
-
-				$terme[$i]=0;
+				 }
+		}
+	
+									
+           
 
 }
 	 
